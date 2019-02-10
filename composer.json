@@ -1,0 +1,21 @@
+{
+    "name": "wjb/spa-bundle",
+    "description": "Build single page applications without javascript framework",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitic Zeljko",
+            "email": "mitke013@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "^4.2",
+        "doctrine/annotations": "^1.6",
+        "symfony/yaml": "^4.2"
+    },
+    "autoload": {
+        "psr-4": { "WJB\\SPABundle\\": "src" },
+        "exclude-from-classmap": ["/Tests/"]
+    }
+}
